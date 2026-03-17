@@ -8,3 +8,65 @@ wheels/
 
 # Virtual environments
 .venv
+venv/
+env/
+ENV/
+
+# Enviroment variables e credentials
+.env
+credentials.json
+.env.local
+.env.*.local
+config/.env
+config/*.env
+*.key
+*.pem
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+
+# Logs
+logs/
+*.log
+
+#  Airflow
+logs/
+airflow.db
+airflow.cfg
+webserver_config.py
+standalone_admin_password.txt
+
+# Dados temp ou sensíveis
+data/temp/
+data/*.csv
+data/*.xlsx
+*.temp
+data/
+config/
+config/*.env
+
+# Backup files
+*.bak
+*.backup
+
+# Docker
+.docker/
+docker-compose.override.yaml
+docker-compose.override.yml
+.dockerignore
+postgres-db-volume/
